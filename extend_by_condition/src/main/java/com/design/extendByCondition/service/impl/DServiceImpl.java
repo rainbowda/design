@@ -5,15 +5,15 @@ import com.design.extendByCondition.service.Service;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AServiceImpl implements Service {
+public class DServiceImpl implements Service {
     @Override
     public void execute() {
-        System.out.println("A execute");
+        System.out.println("D execute");
     }
 
     @Override
     public int getPriority() {
-        return 1;
+        return 0;
     }
 
     @Override

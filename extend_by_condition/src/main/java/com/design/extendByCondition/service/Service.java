@@ -6,5 +6,7 @@ public interface Service {
 
     void execute();
 
+    int getPriority();
+
     boolean isSupport(SupportBean supportBean);
 }

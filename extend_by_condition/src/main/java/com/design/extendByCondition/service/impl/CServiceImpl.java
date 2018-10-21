@@ -12,6 +12,11 @@ public class CServiceImpl implements Service {
     }
 
     @Override
+    public int getPriority() {
+        return 3;
+    }
+
+    @Override
     public boolean isSupport(SupportBean supportBean) {
 
         return supportBean.getSupportNum() % 3 == 2;

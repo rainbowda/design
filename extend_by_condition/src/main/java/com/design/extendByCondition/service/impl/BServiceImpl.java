@@ -12,6 +12,11 @@ public class BServiceImpl implements Service {
     }
 
     @Override
+    public int getPriority() {
+        return 2;
+    }
+
+    @Override
     public boolean isSupport(SupportBean supportBean) {
 
         return supportBean.getSupportNum() % 3 == 1;
