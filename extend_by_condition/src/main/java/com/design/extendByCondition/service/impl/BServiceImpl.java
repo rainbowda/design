@@ -1,14 +1,14 @@
 package com.design.extendByCondition.service.impl;
 
 import com.design.extendByCondition.bean.SupportBean;
-import com.design.extendByCondition.service.RouterService;
+import com.design.extendByCondition.service.Service;
 import org.springframework.stereotype.Component;
 
 @Component
-public class BRouterServiceImpl implements RouterService {
+public class BServiceImpl implements Service {
     @Override
     public void execute() {
-        System.out.println("B router execute");
+        System.out.println("B execute");
     }
 
     @Override

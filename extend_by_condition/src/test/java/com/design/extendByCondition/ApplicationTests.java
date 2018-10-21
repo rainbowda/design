@@ -12,12 +12,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class ApplicationTests {
 
     @Autowired
-    private RouterHelper routerHelper;
-
+    private Helper Helper;
 
     @Test
     public void contextLoads() {
-        routerHelper.execute(new SupportBean(3));
+        Helper.execute(new SupportBean(3));
     }
 
 }
